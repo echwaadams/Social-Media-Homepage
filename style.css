@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body
+{
+    max-width: 1280px;
+    min-height: 200vh;
+    background: #02112c;
+}
+header
+{
+    position: relative;
+    top: 60px;
+    justify-content: space-between;
+    display: flex;
+}
+header ul 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style-type: none;
+}
+header ul li a 
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+/*-- logo section --*/
+.logo
+{
+    color: #fff;
+    font-family: 'Roboto'; 
+}
+
+.profile
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #082150;
+    box-sizing: border-box;
+    border-radius: 20px;
+    top: 150px; 
+    z-index: 2;
+    background: #125fee;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile .prof
+{
+    position: relative;
+    width: 40%;
+    height: 54%;
+    border: 5px solid #082150;
+    box-sizing: border-box;
+    border-radius: 20px;
+    top: 0px; 
+    left: 410px;
+    z-index: 2;
+    background: #082150;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ .img
+{
+    top: -10px;
+    justify-content: center;
+    align-items: center;
+}
+.img img
+{
+    clip-path: circle(60px);
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+}
+.prof h3
+{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+}
+.prof h4
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    top: 20px;
+}
+.one
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    float: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.two
+{
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.three
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    float: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.five
+{
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.four
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    float: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.six
+{
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.profile a
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    float: right;
+    background: yellowgreen;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.container a
+{
+    position: relative;
+    width: 160px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+}
+.container a:before,
+.container a:after 
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #f00;
+    transition: 0.5s;
+}
+.container a:nth-child(1):before,
+.container a:nth-child(1):after
+{
+    background: linear-gradient(45deg, #00ccff,
+    #3a4681,#d400d4);
+}
+container a:nth-child(2):before,
+.container a:nth-child(2):after
+{
+    background: linear-gradient(45deg, #ff075b,
+    #3a4681,#1aff22);
+}
+.container a:hover:before 
+{
+    inset: -3px;
+}
+.container a:hover:after 
+{
+    inset: -3px;
+    filter: blur(10px);
+}
+.container a span 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: #0e1538;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #040a29;
+    overflow: hidden;
+}
+.container a span::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    widows: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
+    transform: skew(25deg);
+}
+/* ------MESSAGES PAGE STYLING */
+.msg-container
+{
+    max-width: 500 !important;
+    margin: auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+img
+{
+    max-width: 100%;
+    clip-path: circle();
+}
+.msg-header
+{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 10%;
+    border-bottom: none;
+    display: inline-block;
+    background: #007bff;
+}
+.msg-header-img
+{
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 5%;
+    margin-top: 12px;
+    float: left;
+}
+.active
+{
+    width: 120px;
+    float: left;
+    margin-top: 10px;
+}
+.active h4
+{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+.active h6
+{
+    font-size: 10px;
+    font-weight: 200 ;
+    margin-left: 10px;
+    line-height: 2px;
+    color: #fff;
+}
+.header-icons
+{
+    width: 120px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.header-icons .fa
+{
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* ---- MESSAGE CHAT STYLING ---- */
+/* .chat-page
+{
+    padding: 0 0 50px 0;
+}
+.msg-inbox
+{
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.chats
+{
+    padding: 30px 15px 0 25px;
+}
+.msg-page
+{
+    height: 516px;
+    overflow-y: auto;
+}
+.received-chats-img
+{
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+.received-msg
+{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received-msg-inbox
+{
+    width: 57%;
+}
+.received-msg-inbox
+{
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.time
+{
+    color: #777;
+    display: block;
+    margin: 8px 0 0;
+    font-size: 12px;
+}
+.outgoing-chats
+{
+    overflow: hidden;
+    margin: 26px 20px;
+}
+.outgoing-chats-msg p
+{
+    background: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    widows: 100%;
+}
+.outgoing-chats-msg
+{
+    float: left;
+    width: 46%;
+    margin-left: 45%;
+}
+.outgoing-chats-img
+{
+    display: inline-block;
+    width: 20px;
+    float: right;
+}
+/* -------MESSAGE BOTTOM--------- */
+/* .msg-bottom
+{
+    position: relative;
+    height: 10%;
+    background-color: #007bff;
+}
+.input-group
+{
+    float: right;
+    margin-top: 13px;
+    margin-right: 20px;
+    outline: none !important;
+    border-radius: 20px;
+    width: 61% !important;
+    background-color: #fff;
+}
+.form-control
+{
+    border-radius: 20px !important;
+}
+.input-group-text
+{
+    background: #007bff;
+}
+.input-group .fa
+{
+    color: #007bff;
+    float: right;
+}
+.bottom-icons
+{
+    position: relative;
+    margin-top: 17px;
+    width: 30px !important;
+    margin-left: 22px;
+    display: inline-block;
+}
+.bottom-icons .fa
+{
+    color: #fff;
+    padding: 5px;
+}
+.form-control:focus
+{
+    border-color:none !important;
+    box-shadow: none !important;
+    border-radius: 20px;
+    background: #007bff;
+} */ */
