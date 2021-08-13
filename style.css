@@ -318,7 +318,7 @@ img
 }
 
 /* ---- MESSAGE CHAT STYLING ---- */
-/* .chat-page
+chat-page
 {
     padding: 0 0 50px 0;
 }
@@ -400,7 +400,7 @@ img
     float: right;
 }
 /* -------MESSAGE BOTTOM--------- */
-/* .msg-bottom
+.msg-bottom
 {
     position: relative;
     height: 10%;
@@ -448,4 +448,4 @@ img
     box-shadow: none !important;
     border-radius: 20px;
     background: #007bff;
-} */ */
+} 
